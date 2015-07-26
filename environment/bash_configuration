@@ -1,0 +1,27 @@
+#!/bin/bash
+
+
+##
+# Aliases
+#
+alias df='df -h'
+alias du='du -h'
+alias less='less -r'
+alias grep='grep --color'
+alias egrep='egrep --color=auto'
+alias ls='ls -hF --color=tty'
+alias dir='ls --color=auto --format=vertical'
+alias vdir='ls --color=auto --format=long'
+alias ll='ls -lah'
+alias la='ls -A'
+alias l='ls -CF'
+alias cds='cd `echo $DEV_SRC`;pwd'
+alias cdg='cd `echo $DEV_GEN`;pwd'
+alias cdb='cd `echo $DEV_BLD`;pwd'
+alias eclipse='/cygdrive/g/sw/eclipse-cpp-mars-R-win32-x86_64/eclipse/eclipse.exe'
+alias set_dev_src='export DEV_SRC=`pwd`/dev_src'
+alias set_dev_gen='export DEV_GEN=`pwd`/dev_gen'
+alias set_dev_bld='export DEV_BLD=`pwd`/dev_bld'
+alias set_dev_dirs='set_dev_src; set_dev_gen; set_dev_bld; echo "DEV_SRC=$DEV_SRC"; echo "DEV_GEN=$DEV_GEN"; echo "DEV_BLD=$DEV_BLD"'
+
+
