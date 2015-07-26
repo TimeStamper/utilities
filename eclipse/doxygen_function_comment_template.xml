@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="doxygen function comment" enabled="true" name="doxy_func">/**&#13;
+ * \brief Summary description&#13;
+ * &#13;
+ * Optional: Detailed description&#13;
+ * &#13;
+ * \param Parameter descriptions&#13;
+ * \return Return description&#13;
+ */</template></templates>

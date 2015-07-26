@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="Customized class template" enabled="true" name="class_custom">/**&#13;
+ * \brief Summary description&#13;
+ * &#13;
+ * Optional: Detailed description&#13;
+ */&#13;
+class ${name} {&#13;
+&#13;
+public:&#13;
+&#13;
+  /**&#13;
+   * \brief Default constructor.&#13;
+   */&#13;
+  ${name}();&#13;
+&#13;
+  /**&#13;
+   * \brief destructor.&#13;
+   */&#13;
+  virtual ~${name}();&#13;
+&#13;
+private:&#13;
+&#13;
+  ${name}(const ${name}&amp;);&#13;
+  ${name}&amp; operator =(const ${name}&amp;);&#13;
+};&#13;
+&#13;
+${cursor}</template></templates>
