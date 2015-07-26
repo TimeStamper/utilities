@@ -1,5 +1,10 @@
 #!/bin/bash
 
+##
+# Environment Variables
+#
+export BLD_SYS_DIR=$DEV_DIR/repos/build_systems
+
 
 ##
 # Aliases
