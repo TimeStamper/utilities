@@ -4,6 +4,8 @@
 # Environment Variables
 #
 export BLD_SYS_DIR=$DEV_DIR/repos/build_systems
+export GMOCK_DIR=$DEV_DIR/sw/gmock-1.7.0
+export GTEST_DIR=$DEV_DIR/sw/gmock-1.7.0/gtest
 
 
 ##
@@ -22,6 +24,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias cdr='cd /cygdrive/g/repos;pwd'
 alias cdt='cd /cygdrive/g/repos/build_systems;pwd'
+alias cdu='cd /cygdrive/g/repos/utilities;pwd'
 alias cds='cd `echo $DEV_SRC`;pwd'
 alias cdg='cd `echo $DEV_GEN`;pwd'
 alias cdb='cd `echo $DEV_BLD`;pwd'
