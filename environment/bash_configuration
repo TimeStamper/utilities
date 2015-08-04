@@ -4,6 +4,7 @@
 # Environment Variables
 #
 export BLD_SYS_DIR=$DEV_DIR/repos/build_systems
+PATH=$DEV_DIR/repos/utilities/bin:$PATH
 
 
 ##
