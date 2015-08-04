@@ -4,23 +4,20 @@
  * Optional: Detailed description&#13;
  */&#13;
 class ${name} {&#13;
-&#13;
-public:&#13;
-&#13;
+ public:&#13;
   /**&#13;
    * \brief Default constructor.&#13;
    */&#13;
   ${name}();&#13;
 &#13;
   /**&#13;
-   * \brief destructor.&#13;
+   * \brief Destructor.&#13;
    */&#13;
   virtual ~${name}();&#13;
 &#13;
-private:&#13;
-&#13;
+ private:&#13;
   ${name}(const ${name}&amp;);&#13;
+&#13;
   ${name}&amp; operator =(const ${name}&amp;);&#13;
 };&#13;
-&#13;
 ${cursor}</template></templates>
