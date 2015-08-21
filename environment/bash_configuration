@@ -32,5 +32,6 @@ alias set_dev_src='export DEV_SRC=`pwd`/dev_src'
 alias set_dev_gen='export DEV_GEN=`pwd`/dev_gen'
 alias set_dev_bld='export DEV_BLD=`pwd`/dev_bld'
 alias set_dev_dirs='set_dev_src; set_dev_gen; set_dev_bld; echo "DEV_SRC=$DEV_SRC"; echo "DEV_GEN=$DEV_GEN"; echo "DEV_BLD=$DEV_BLD"'
+alias set_time_stamper='cdr; cd time_stamper/back_end; set_dev_dirs; cds'
 
 
