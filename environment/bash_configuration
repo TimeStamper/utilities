@@ -8,6 +8,12 @@ PATH=$DEV_DIR/repos/utilities/bin:$PATH
 
 
 ##
+# Sources
+#
+source $DEV_DIR/repos/utilities/environment/git-completion.bash
+
+
+##
 # Aliases
 #
 alias df='df -h'
