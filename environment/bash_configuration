@@ -4,6 +4,7 @@
 # Environment Variables
 #
 export BLD_SYS_DIR=$DEV_DIR/repos/build_systems
+export TERM=xterm
 PATH=$DEV_DIR/repos/utilities/bin:$PATH
 
 
@@ -12,6 +13,17 @@ PATH=$DEV_DIR/repos/utilities/bin:$PATH
 #
 source $DEV_DIR/repos/utilities/environment/git-completion.bash
 
+
+##
+# Bash prompt format
+#
+Bold=$(tput bold)
+Cyan=$(tput setaf 6)
+Green=$(tput setaf 2)
+Default=$(tput sgr0)
+Yellow=$(tput setaf 3)
+
+PS1='\[$Bold$Yellow\]\[`date +"%H:%M:%S"`\] \[$Cyan\]${debian_chroot:+($debian_chroot)}\u@\h\[\033[00m\]:\[\033[01;32m\]`pwd` \[$Green\]\[$Default$Bold\]$ $Default'
 
 ##
 # Aliases
