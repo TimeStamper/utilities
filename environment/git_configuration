@@ -1,3 +1,4 @@
+
 [user]
   name = Erik Ahlberg
   email = Erik.M.Ahlberg@gmail.com
@@ -35,9 +36,9 @@
   versiontag = v
 [alias]
   br = branch
-  st = status
-  rb = rebase
   ci = commit
   co = checkout
+  cp = cherry-pick
+  rb = rebase
   re = remote
-
+  st = status
