@@ -3,15 +3,15 @@
 ##
 # Environment Variables
 #
-export BLD_SYS_DIR=$DEV_DIR/repos/build_systems
+export BLD_SYS_DIR=$DEV_DIR/repositories/build_systems
 export TERM=xterm
-PATH=$DEV_DIR/repos/utilities/bin:/opt/android-studio/bin:$PATH
+PATH=$DEV_DIR/repositories/utilities/bin:/opt/android-studio/bin:$PATH
 
 
 ##
 # Sources
 #
-source $DEV_DIR/repos/utilities/environment/git-completion.bash
+source $DEV_DIR/repositories/utilities/environment/git-completion.bash
 
 
 ##
@@ -39,9 +39,9 @@ alias vdir='ls --color=auto --format=long'
 alias ll='ls -lah'
 alias la='ls -A'
 alias l='ls -CF'
-alias cdr='cd $DEV_DIR/repos;pwd'
-alias cdt='cd $DEV_DIR/repos/build_systems;pwd'
-alias cdu='cd $DEV_DIR/repos/utilities;pwd'
+alias cdr='cd $DEV_DIR/repositories;pwd'
+alias cdt='cd $DEV_DIR/repositories/build_systems;pwd'
+alias cdu='cd $DEV_DIR/repositories/utilities;pwd'
 alias cds='cd `echo $DEV_SRC`;pwd'
 alias cdg='cd `echo $DEV_GEN`;pwd'
 alias cdb='cd `echo $DEV_BLD`;pwd'
@@ -51,5 +51,6 @@ alias set_dev_bld='export DEV_BLD=`pwd`/dev_bld'
 alias set_dev_dirs='set_dev_src; set_dev_gen; set_dev_bld; echo "DEV_SRC=$DEV_SRC"; echo "DEV_GEN=$DEV_GEN"; echo "DEV_BLD=$DEV_BLD"'
 alias set_time_stamper='cdr; cd time_stamper/back_end; set_dev_dirs; cds'
 alias as='studio.sh &'
+alias sudo="cygstart --action=runas"
 
 

@@ -25,6 +25,7 @@
   added = green bold
   changed = yellow bold
   untracked = cyan bold
+  deleted = red bold
 [diff]
   tool = vimdiff
 [difftool]
