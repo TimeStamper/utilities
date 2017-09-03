@@ -4,6 +4,7 @@
 # Environment Variables
 #
 export BLD_SYS_DIR=$DEV_DIR/repositories/build_systems
+export DEV_SRC=$DEV_DIR/repositories/time_stamper/back_end/dev_src
 export TERM=xterm
 PATH=$DEV_DIR/repositories/utilities/bin:/opt/android-studio/bin:$PATH
 
