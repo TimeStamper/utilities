@@ -23,7 +23,7 @@
   whitespace = red reverse
 [color "status"]
   added = green bold
-  changed = yellow bold
+  changed = yellow
   untracked = cyan bold
   deleted = red bold
 [diff]
