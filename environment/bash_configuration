@@ -29,6 +29,7 @@ PS1='\[$Bold$Yellow\]\[`date +"%H:%M:%S"`\] \[$Cyan\]${debian_chroot:+($debian_c
 ##
 # Aliases
 #
+alias as='studio.sh &'
 alias df='df -h'
 alias du='du -h'
 alias less='less -r'
@@ -47,11 +48,10 @@ alias cdt='cd $DEV_DIR/repositories/tools;pwd'
 alias cds='cd `echo $DEV_SRC`;pwd'
 alias cdg='cd `echo $DEV_GEN`;pwd'
 alias cdb='cd `echo $DEV_BLD`;pwd'
+alias ruby='/mnt/c/Ruby24-x64/bin/ruby.exe'
 alias set_dev_src='export DEV_SRC=`pwd`/dev_src'
 alias set_dev_gen='export DEV_GEN=`pwd`/dev_gen'
 alias set_dev_bld='export DEV_BLD=`pwd`/dev_bld'
 alias set_dev_dirs='set_dev_src; set_dev_gen; set_dev_bld; echo "DEV_SRC=$DEV_SRC"; echo "DEV_GEN=$DEV_GEN"; echo "DEV_BLD=$DEV_BLD"'
 alias set_time_stamper='cdr; cd time_stamper/engine; set_dev_dirs; cds'
-alias as='studio.sh &'
-
 
